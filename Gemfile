@@ -16,3 +16,9 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'haml', '~> 4.0', '>= 4.0.7'
+gem 'simple_form'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'paperclip', '~> 4.3'
+gem 'cocoon', '~> 1.2', '>= 1.2.7'
+gem 'devise', '~> 3.5', '>= 3.5.6'
