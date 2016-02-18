@@ -26,7 +26,13 @@
 $red: #DB6161;
 
 body {
-  background: rgb(235, 238, 243);
+  background: rgb(235, 238, 243) url('/assets/topo_bg.png');
+  background-size: 65%;
+}
+
+.navbar-default{
+  background: #ffffff;
+  border-radius: 0 !important
 }
 
 .main_content {
@@ -134,15 +140,18 @@ body {
 .form-inline {
   margin-top: 15px;
 }
+
 .form-input {
   width: 65% !important;
   float: left;
 }
+
 .form-button {
   float: left;
   width: 30% !important;
   margin-left: 5%;
 }
+
 .add-button {
   margin-top: 25px;
 }
