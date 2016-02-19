@@ -155,3 +155,37 @@ body {
 .add-button {
   margin-top: 25px;
 }
+
+.form-devise{
+  display: block;
+  background: #fff;
+  padding: 20px 30px 50px 30px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+
+  .form-control{
+    margin: 20px 0 0 0;
+    padding: 20px 10px;
+
+    &:last-child{
+      margin-bottom: 20px;  
+    }
+  }
+
+  .error{
+    font-size: 13px;
+    font-style: italic;
+    text-align: right;
+    display: block;
+    color: #f44336;
+  }
+
+  .user_remember_me{
+    margin-left: 20px;
+  }
+}
+
+abbr[title]{
+  border-bottom: none !important;
+}
