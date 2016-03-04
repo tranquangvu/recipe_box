@@ -26,7 +26,7 @@
 $red: #DB6161;
 
 body {
-  background: rgb(235, 238, 243) url('/assets/topo_bg.png');
+  background: rgb(235, 238, 243) asset_url("topo_bg.png");
   background-size: 65%;
 }
 
